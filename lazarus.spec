@@ -1,8 +1,8 @@
 %define  debug_package %{nil}
 
 Name:		lazarus
-Version:	4.0.0
-Release:	0%{?dist}
+Version:	3.2.4
+Release:	1
 Summary:	Lazarus Component Library and IDE for Free Pascal
 License:	GPLv2+ and LGPLv2+ with exceptions # https://sourceforge.net/p/lazarus/laz.git/ci/lazarus_4_0/tree/COPYING.txt
 URL:		https://www.lazarus-ide.org/
@@ -43,5 +43,8 @@ make PREFIX=%{buildroot}/usr install
 %{_datadir}
 
 %changelog
+* Fri Jun 06 2025 dlk3 <dave@daveking.com> 3.2.4-1
+- new package built with tito
+
 * Thu Jun 05 2025 dlk3 <dave@daveking.com> 4.0.0-0
 - Initial version of package

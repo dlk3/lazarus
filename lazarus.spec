@@ -11,6 +11,7 @@ BuildArch:	x86_64
 
 Requires:	fpc >= 3.2.2
 BuildRequires:	fpc == 3.2.2
+BuildRequires:	glibc-devel
 
 %description
 Lazarus is an IDE to create (graphical and console) applications with

@@ -2,7 +2,7 @@
 
 Name:		lazarus
 Version:	4.0.0
-Release:	1
+Release:	2
 Summary:	Lazarus Component Library and IDE for Free Pascal
 License:	GPLv2+ and LGPLv2+ with exceptions # https://sourceforge.net/p/lazarus/laz.git/ci/lazarus_4_0/tree/COPYING.txt
 URL:		https://www.lazarus-ide.org/
@@ -44,6 +44,10 @@ make PREFIX=%{buildroot}/usr install
 %{_datadir}
 
 %changelog
+* Fri Jun 06 2025 dlk3 <dave@daveking.com> 4.0.0-2
+- Add glibc-devel build dependency to get cmake package included
+  (dave@daveking.com)
+
 * Fri Jun 06 2025 dlk3 <dave@daveking.com> 4.0.0-1
 - Correct the version number
 

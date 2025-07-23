@@ -6,11 +6,11 @@ Release:	3%{?dist}
 Summary:	Lazarus Component Library and IDE for Free Pascal
 License:	GPLv2+ and LGPLv2+ with exceptions # https://sourceforge.net/p/lazarus/laz.git/ci/lazarus_4_0/tree/COPYING.txt
 URL:		https://www.lazarus-ide.org/
-Source0:	{{{ git_dir_pack}}}
+Source0:	{{{ git_dir_pack }}}
 BuildArch:	x86_64
 
 Requires:	fpc >= 3.2.4
-BuildRequires:	fpc == 3.2.4
+BuildRequires:	fpc >= 3.2.4
 BuildRequires:	glibc-devel
 
 %description

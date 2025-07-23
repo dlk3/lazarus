@@ -2,7 +2,7 @@
 
 Name:		{{{ git_dir_name }}}
 Version:	4.0.0
-Release:	3
+Release:	3%{?dist}
 Summary:	Lazarus Component Library and IDE for Free Pascal
 License:	GPLv2+ and LGPLv2+ with exceptions # https://sourceforge.net/p/lazarus/laz.git/ci/lazarus_4_0/tree/COPYING.txt
 URL:		https://www.lazarus-ide.org/
@@ -46,7 +46,7 @@ make PREFIX=%{buildroot}/usr install
 %changelog
 {{{ git_dir_changelog }}}
 
-* Wed Jul 23 2025 dlk3 <dave@daveking.com> 4.0.0-2
+* Wed Jul 23 2025 dlk3 <dave@daveking.com> 4.0.0-3
 - Modify spec file to support rpkg build on COPR
 
 * Fri Jun 06 2025 dlk3 <dave@daveking.com> 4.0.0-2
